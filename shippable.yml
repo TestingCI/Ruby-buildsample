@@ -5,6 +5,7 @@ rvm:
 env:
  global:
    - CI_REPORTS=shippable/testresults COVERAGE_REPORTS=shippable/codecoverage
-   - secure: TIbW4pyDWRQ2t1IgUfGrI7EcACO0bMlx+R6WoxRjxAO/RT7VirVABQmkdD7nl+Umq7LF0AQGjPA3zgDpY7rPfGh8pMWhiWNcGjvm/mPv8SUWfqVvTGTrwQK/lzvvuwuofyw5tdukBqna7a3JPR4+ZDs7OgoyJ+ZAq+oXZrQLN+Jis24V+yuv8UFrWNgfC+fUznBJFCdme6AqyuHNGW+OxLAnrO0W8r0H15yWwpMBUnCH0IIpV8cPqzSjsTCqSBMHxweOivfxblSvQyAzjJ340PslbpcSfQ5SQWFYdGW7axYGC79kk2IFTJBRsJ+VnVxzkwYRY8MPBNkgq9vQ2bKpCA== 
+   - secure: Vurkx1z271C5GU3nGg66WwqV5JDMopJ1KLY53BUeuT1DiOADbxbzXGks1lyTIYnzW6kzOY8hOUCj/eVXiY5Oh9mDWdlawJ7UVmXno9Okkdv5/Eo7+t7T3TIJgoafExxNKCpqXwhppmzFF8DyUIZftlqVGnzoWvu7RUGDFJ+qOsZqPb7p89wItWaSOtSP8AzqJlXFUopvNMv8RQfpPnkXl0YTytyMGqOMWSpmOlFV3w/h8xFcG6hJ7SAO0H7WoKrTiW6ogR7epAgxR64n7KXYVlRiX7MTlMVqv+s9fHTlEdAymeateaDrz0/yfMUR9QHUvUQVvhHx02ak+/FgwUO7Dw==
+
 script:
-  - echo $name and $product
+  - echo $name #and $product
