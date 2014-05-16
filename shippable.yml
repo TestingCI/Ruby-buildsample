@@ -4,6 +4,6 @@ rvm:
   - 1.9.2
 env:
   - CI_REPORTS=shippable/testresults COVERAGE_REPORTS=shippable/codecoverage
-  - secure: gdAS61L5sK8SC7o3JgaGSN8Gjrs/Y+c3xLTJ3aPhijsSLcWspQ0f7m+eZ6JcDei5kT5SSvQCXYMLQhgstuBDZRMMQz2wPvjqfiVFdevejy/peS6SCfWNqTIZdyKyVkeeNwttdTB9/tqKH0Qi7pv261uwTTcFkQ3QdDFSAA90EGbvhIMkmd20V8vuAzGoIPNV6A4zat5l8++/sWr9cec6mdF/8Q+0E/i5XzBeQQnLh8xkRwRZR3YV+Z/5maW4+9YMIl8xghz1NohXvcimp1vSDyZr10MhglvFLvpJ/2SzEOCw6YclzFTSkJgV769IqClOthjEv2vlO2dbEjL+1pPOwA==    
+  - secure: TIbW4pyDWRQ2t1IgUfGrI7EcACO0bMlx+R6WoxRjxAO/RT7VirVABQmkdD7nl+Umq7LF0AQGjPA3zgDpY7rPfGh8pMWhiWNcGjvm/mPv8SUWfqVvTGTrwQK/lzvvuwuofyw5tdukBqna7a3JPR4+ZDs7OgoyJ+ZAq+oXZrQLN+Jis24V+yuv8UFrWNgfC+fUznBJFCdme6AqyuHNGW+OxLAnrO0W8r0H15yWwpMBUnCH0IIpV8cPqzSjsTCqSBMHxweOivfxblSvQyAzjJ340PslbpcSfQ5SQWFYdGW7axYGC79kk2IFTJBRsJ+VnVxzkwYRY8MPBNkgq9vQ2bKpCA== 
 script:
-  - echo $ruby and $ruby1
+  - echo $name and $product
