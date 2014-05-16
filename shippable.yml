@@ -3,7 +3,8 @@ rvm:
   - 1.9.3
   - 1.9.2
 env:
-  - CI_REPORTS=shippable/testresults COVERAGE_REPORTS=shippable/codecoverage
-  - secure: TIbW4pyDWRQ2t1IgUfGrI7EcACO0bMlx+R6WoxRjxAO/RT7VirVABQmkdD7nl+Umq7LF0AQGjPA3zgDpY7rPfGh8pMWhiWNcGjvm/mPv8SUWfqVvTGTrwQK/lzvvuwuofyw5tdukBqna7a3JPR4+ZDs7OgoyJ+ZAq+oXZrQLN+Jis24V+yuv8UFrWNgfC+fUznBJFCdme6AqyuHNGW+OxLAnrO0W8r0H15yWwpMBUnCH0IIpV8cPqzSjsTCqSBMHxweOivfxblSvQyAzjJ340PslbpcSfQ5SQWFYdGW7axYGC79kk2IFTJBRsJ+VnVxzkwYRY8MPBNkgq9vQ2bKpCA== 
+ global:
+   - CI_REPORTS=shippable/testresults COVERAGE_REPORTS=shippable/codecoverage
+   - secure: TIbW4pyDWRQ2t1IgUfGrI7EcACO0bMlx+R6WoxRjxAO/RT7VirVABQmkdD7nl+Umq7LF0AQGjPA3zgDpY7rPfGh8pMWhiWNcGjvm/mPv8SUWfqVvTGTrwQK/lzvvuwuofyw5tdukBqna7a3JPR4+ZDs7OgoyJ+ZAq+oXZrQLN+Jis24V+yuv8UFrWNgfC+fUznBJFCdme6AqyuHNGW+OxLAnrO0W8r0H15yWwpMBUnCH0IIpV8cPqzSjsTCqSBMHxweOivfxblSvQyAzjJ340PslbpcSfQ5SQWFYdGW7axYGC79kk2IFTJBRsJ+VnVxzkwYRY8MPBNkgq9vQ2bKpCA== 
 script:
   - echo $name and $product
