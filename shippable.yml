@@ -2,6 +2,8 @@ language: ruby
 rvm:
   - 1.9.3
   - 1.9.2
+  - 2.0.0
+  
 env:
   - CI_REPORTS=shippable/testresults COVERAGE_REPORTS=shippable/codecoverage
   # - secure: Vurkx1z271C5GU3nGg66WwqV5JDMopJ1KLY53BUeuT1DiOADbxbzXGks1lyTIYnzW6kzOY8hOUCj/eVXiY5Oh9mDWdlawJ7UVmXno9Okkdv5/Eo7+t7T3TIJgoafExxNKCpqXwhppmzFF8DyUIZftlqVGnzoWvu7RUGDFJ+qOsZqPb7p89wItWaSOtSP8AzqJlXFUopvNMv8RQfpPnkXl0YTytyMGqOMWSpmOlFV3w/h8xFcG6hJ7SAO0H7WoKrTiW6ogR7epAgxR64n7KXYVlRiX7MTlMVqv+s9fHTlEdAymeateaDrz0/yfMUR9QHUvUQVvhHx02ak+/FgwUO7Dw==
